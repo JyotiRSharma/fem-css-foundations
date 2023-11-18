@@ -1,0 +1,23 @@
+@import url(base.css);
+
+.home .main__heading {
+  font-size: 128px;
+}
+
+.home .main__sub-heading {
+  font-size: 40px;
+}
+
+.button-container {
+  display: flex;
+  margin-top: 100px;
+  padding-left: 1rem;
+}
+
+.button:not(:last-of-type) {
+  margin-inline-end: 20px;
+}
+
+.button__icon {
+  vertical-align: middle;
+}
